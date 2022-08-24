@@ -1,7 +1,7 @@
 name: morning
 on:
   schedule:
-  - cron:  '2 48 * * *'
+  - cron:  '0 0 * * *'
 
 jobs:
   send_message:
