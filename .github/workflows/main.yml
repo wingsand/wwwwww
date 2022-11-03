@@ -10,11 +10,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+  
     steps:
     # 添加定时任务指定运行分支 默认为master
     - uses: actions/checkout@v3
